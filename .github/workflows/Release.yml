@@ -386,7 +386,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: messense/aliyundrive-fuse
+          images: leeivan/aliyunpan_internal
           tags: |
             type=schedule
             type=ref,event=branch
