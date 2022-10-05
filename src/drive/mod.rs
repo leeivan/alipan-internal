@@ -350,7 +350,7 @@ impl AliyunDrive {
                 &req,
             )?
             .context("expect response")?;
-        Ok(res.url)
+        Ok(res.internal_url)
     }
 
     pub fn get_quota(&self) -> Result<(u64, u64)> {

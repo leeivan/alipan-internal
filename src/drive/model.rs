@@ -44,7 +44,7 @@ pub struct GetFileDownloadUrlRequest<'a> {
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct GetFileDownloadUrlResponse {
-    pub url: String,
+    pub internal_url: String,
     pub size: u64,
     pub expiration: String,
 }
